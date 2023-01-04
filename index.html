@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icone.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <title>Stanley plus</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container text-light text-uppercase">
+                <h1>Stanley plus</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav  nav nav-pills">
+                        <li class="nav-item"><a class="nav-link text-light active" href="#inicio">Início</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#novidades">Novidades</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#filmes">Filmes</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#series">Séries</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Entrar</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+
+            <section id="inicio">
+                <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="./img/Perdido-em-Marte-6.png">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./img/interestelar.png">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./img/hdfst.png">
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="novidades" class="container">
+                <h2>Novidades</h2>
+                <hr>
+                <div class="grid row row-gap-5">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/boba.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">O livro de Boba Fett</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/me.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">O Mandaloriano</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/solo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Han Solo</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/inter1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Interstellar</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/midway.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Midway</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/flash.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Flash</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="filmes" class="container">
+                <h2>Filmes</h2>
+                <hr>
+                <div class="grid row row-gap-5">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/1471594431-jpg_Thor-The-Dark-Wor.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Thor</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/iron-man-3-movie-poster-337x500.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Iron Man 3</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/Underdog.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Underdog</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section id="series" class="container">
+                <h2>Séries</h2>
+                <hr>
+                <div class="grid row row-gap-5">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/housev9_aa.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">House</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/sheldon.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Jovem Sheldon</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/bigk.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Big Bang Theory</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary w-100">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
+
+        <footer class=" d-flex justify-content-center">
+            <p>&copy; 2023 STANLEY PLUS - Todos os direitos reservados</p>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

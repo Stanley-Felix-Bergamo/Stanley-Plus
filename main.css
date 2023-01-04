@@ -1,0 +1,59 @@
+header {
+    background-color: #06283D;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+footer {
+    padding: 1rem;
+    margin-top: 5rem;
+    background-color: #06283D;
+}
+
+footer p{
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+body {
+    background-color: #256D85;
+}
+
+.container {
+    padding-top: 2rem;
+}
+
+h2,
+hr {
+    color: #DFF6FF;
+}
+
+hr {
+    padding-bottom: 2rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+
+@media screen and (min-width:768px) {
+    #carousel img {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width:1023px) {
+    #carousel img {
+        height: 90vh;
+    }
+}
