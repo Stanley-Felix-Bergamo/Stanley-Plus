@@ -12,7 +12,7 @@ footer {
     background-color: #06283D;
 }
 
-footer p{
+footer p {
     color: #fff;
 }
 
@@ -45,6 +45,9 @@ hr {
     text-align: center;
 }
 
+.ico-warn {
+    width: 52px;
+}
 
 @media screen and (min-width:768px) {
     #carousel img {
