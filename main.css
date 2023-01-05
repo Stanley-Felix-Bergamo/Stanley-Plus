@@ -49,14 +49,21 @@ hr {
     width: 52px;
 }
 
+.card img {
+    height: 250px;
+}
+
 @media screen and (min-width:768px) {
     #carousel img {
-        height: 50vh;
+        height: 20vh;
     }
 }
 
 @media screen and (min-width:1023px) {
     #carousel img {
-        height: 90vh;
+        height: 30vh;
+    }
+    .card img {
+        height: 350px;
     }
 }
