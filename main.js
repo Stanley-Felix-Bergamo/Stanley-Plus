@@ -6,7 +6,7 @@ $('document').ready(function () {
 
 
 function botaoAssitir() {
-    $('.btn').click(function (e) {
+    $('.toastBtn').click(function (e) {
         e.preventDefault();
 
         const toastLiveExample = $('#liveToast');
