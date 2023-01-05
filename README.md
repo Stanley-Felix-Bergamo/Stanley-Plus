@@ -5,7 +5,7 @@
 
 <p>Saiba mais acessando o site <a href="https://stanley-felix-bergamo.github.io/Stanley-Plus/">Clicando aki</a></p> 
 <div align="center" >
-<img src="https://raw.githubusercontent.com/Stanley-Felix-Bergamo/Stanley-Plus/main/img/mac.png" alt="imagem">
+<img src="https://raw.githubusercontent.com/Stanley-Felix-Bergamo/Stanley-Plus/main/img/mac2.png" alt="imagem">
 </div>
 
 <h2>💻 Tecnologias utilizadas</h2>
